@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <title>Rock Paper Scissor</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <h1 id="game-title">Rock, Paper, Scissor!!</h1>
+    <h2 id="game-rules">Game Rules!!</h2>
+    <div id="players-score" class="Arial">
+      <h3><strong>You</strong>
+      <p id="players-scorecard"><strong>0</strong></p>
+    </div>
+    <div id="computers-score" class="Arial">
+      <h3><strong>Computer</strong>
+      <p id="computers-scorecard"><strong>0</strong></p>
+    </div>
+    <div id="reset-game" class="Arial">
+      <button type="button" onclick=gameReset()>Reset Score</button>
+    </div>
+    <div class="rule-list" class="Arial">
+        <ol>
+          <li>Rock crushes the scissor.</li>
+          <li>Paper covers the rock.</li>
+          <li>Scissor cuts the paper.</li>
+        </ol>
+    </div>
+    <h2 id="game-play">Select one, Play against the Computer!</h2>
+    <section class="game-icons">
+        <a id="clickable-images">
+          <img id="rock" onclick="game(this.id)" src="images/rock.png" alt="Rock" width="200" height="200">
+          <img id="paper" onclick="game(this.id)" src="images/paper.png" alt="Paper" width="200" height="200">
+          <img id="scissors" onclick="game(this.id)" src="images/scissors.png" alt="Scissors" width="200" height="200">
+        </a>
+        <p><strong id="result-description"></strong></p>
+        <script type="text/javascript" src="main.js"></script>
+    </section>
+</body>
+</html>

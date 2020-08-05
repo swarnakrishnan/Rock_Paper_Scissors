@@ -1,0 +1,117 @@
+#game-title {
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #game-rules {
+    padding-left: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #game-play {
+    padding-left: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #players-score {
+    float: right;
+    padding-right: 100px;
+    font-family:  Arial, Helvetica, sans-serif;
+  }
+  #computers-score {
+    float: right;
+    padding-right: 100px;
+    font-family:  Arial, Helvetica, sans-serif;
+  }
+  #reset-game {
+    float: right;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .rule-list {
+    padding-left: 256px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .game-icons {
+    padding-left: 250px;
+    display: inline-block;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: lightgrey;
+  }
+  #result-description {
+    font-size: x-large;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  button {
+    background-color: white;
+    color: black;
+    font-size: x-large;
+  }
+  @media screen and (max-width: 600px) {
+    #game-title{
+      padding: 2px;
+    }
+    .rule-list {
+      font-size: 20px;
+      display: inline-block;
+      width: 100%;
+      padding-left: 5%;
+    }
+    #game-play {
+      display: inline-block;
+      width: 100%;
+      padding-left: 0%;
+    }
+    .game-icons {
+      padding-left: 0px;
+    }
+    #rock {
+      width: 50px;
+      height: 50px;
+      padding-left: 50px;
+    }
+    #paper {
+      width: 50px;
+      height: 50px;
+      padding-left: 55px;
+    }
+    #scissors {
+      width: 50px;
+      height: 50px;
+      padding-left: 50px;
+    }
+    #game-rules {
+      padding-left: 0%;
+    }
+    #players-score {
+    display: inline-block;
+    padding-right: 10%;
+    font-size: 20px;
+    margin-top: -10%;
+    }
+    #computers-score {
+    display: inline-block;
+    padding-right: 10%;
+    font-size: 20px;
+    margin-top: -10%;
+    }
+    #reset-game {
+      /*padding-right: 20%;*/
+      margin-top: 4.75%;
+      padding-left: 1%;
+    }
+    body {
+      overflow-x: hidden;
+    }
+    button {
+      padding-left: 10%;
+      margin-top: -50%;
+    }
+  }
